@@ -1,0 +1,10 @@
+Radiation is a combination of electrical and magnetic energy that travels through space at the speed of light. It is also referred to as electromagnetic radiation (EMR).
+Radiation is classified into two broad groups:
+ionising radiatio(IR) – which is capable of causing changes in atoms or molecules in the body that can result in tissue damage such as cancer. Examples of IR include x-rays and gamma rays
+non-ionising radiation (NIR) – which doesn’t cause these changes, but can prompt molecules to vibrate. This can lead to rises in temperature, as well as other effects. Examples of NIR include ultraviolet radiation in sunlight, visible light, light bulbs, infrared radiation, microwave energy and radiofrequency energy.
+The mobile phone system works like a two-way radio, and includes the individual handset and the base stations. Base station antennae are mounted high off the ground (on a tower or roof) to get the widest coverage. A mobile phone has a radio receiver and a transmitter.
+When you make a call, your phone uses radiofrequency (RF) radiation via its antenna to ‘talk’ to a nearby base station. Once the base station has received your signal, your call is directed through the landline phone system.
+Mobile phone base stations emit relatively constant levels of RF radiation. The handsets emit levels of RF radiation that vary depending on three things:
+how long you use the phone how close you hold the phone to your body
+how close you are to the base station. If the link to the base station is weak, the handset increases its radiation level to compensate.
+The levels of RF radiation from the handset, to which your head is exposed, are around 100 to 1,000 times more intense than exposure from base stations.

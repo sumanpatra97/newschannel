@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'basic.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"><br>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 ff">
+            <h4>Sign-in your account here</h4><br>
+            <form class="form-group" action="login" method="POST">
+                {% csrf_token %}
+                <h5>{{fm.as_p}}</h5>
+                <button type="submit" class="btn btn-success">SUBMIT</button>
+            </form>
+            <h5>New to site?</h5><h5><a href="signup">Creat your account</a></h5>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

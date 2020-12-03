@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'basic.css' %}">
+    <link rel="stylesheet" href="{% static 'new.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container cop">
+        <div class="col-md-12">
+            <img src="media/staticfiles/{{x}}">
+            <h1>{{y}}</h1>
+            <h4>{{z}}</h4>
+        </div>
+    </div>
+</body>
+</html>

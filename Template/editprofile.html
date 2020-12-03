@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'basic.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 ff">
+            <h1 class="h4">Profile details</h1>
+            <form action="profile" method="POST" class="form-group">
+                {%csrf_token%}
+                {% for t in data%}
+                <h6>{{t.label_tag}} {{t}}</h6><br>
+                {% endfor %}
+            <input type="submit" name="SAVE">
+            </form>
+            <a href="profile"><button class="btn btn-primary h5">Edit profile </button></a>
+            <a href="password"><button class="btn btn-success h5">Forgot password </button></a>
+            <a href="logout"><button class="btn btn-warning h5">Logout</button></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

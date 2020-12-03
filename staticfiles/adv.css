@@ -1,0 +1,18 @@
+body{
+    background: skyblue;
+}
+.lox{
+    background-color: skyblue;
+}
+.cop{
+    background-color:palegoldenrod;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dd{
+    height: fit-content;
+    width: 100%;
+}
+.lom{
+    text-align: center;
+}

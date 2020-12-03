@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'basic.css' %}">
+    <link rel="stylesheet" href="{% static 'adv.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Write article here and upload image</h1><br>
+        <form action="save" method="POST" enctype='multipart/form-data' class="form-group">
+            {% csrf_token%}
+            {{fm.as_p}}
+            <p class="op">catagory available:mobile/laptop/smartwatch/camera/other</p>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
